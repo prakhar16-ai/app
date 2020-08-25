@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@id/internships"
+            android:checked="true"
+            android:icon="@drawable/ic_intern"
+            android:title="Internships" />
+        <item
+            android:menuCategory="secondary"
+            android:id="@id/resume"
+            android:icon="@drawable/ic_resume"
+            android:title="Resume" />
+
+
+        <item
+            android:menuCategory="secondary"
+            android:id="@id/contact_us"
+            android:icon="@drawable/ic_contact_mail"
+            android:title="Contact Us" />
+
+        <item
+            android:menuCategory="secondary"
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+
+        <item
+            android:menuCategory="secondary"
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About Us" />
+
+        <item
+            android:menuCategory="secondary"
+            android:id="@+id/log_out"
+            android:icon="@drawable/ic_log_out"
+            android:title="Log Out" />
+
+
+    </group>
+</menu>
